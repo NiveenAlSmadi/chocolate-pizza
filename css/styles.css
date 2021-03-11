@@ -113,14 +113,16 @@ body {
         display: inherit;
         font-family: patrick hand, cursive;
         line-height: 50px; 
-        margin-left: 7%;
+        margin-right: 7%;
         width: 100%;
         margin-top: -7px;
+
       }
 
       #col1{
         float: left;
         width: 40%;
+
       }
 
       #col2{
@@ -201,3 +203,57 @@ body {
       footer{
         margin-top: 10%;
       }
+       
+      }
+      #col1,#form-list{
+     background-image: url("/img/list-bg.png");
+     }
+     
+  .vanimg  {
+    display: inline;
+    float: left;
+}
+  h4{
+  font-family: 'Crimson Text', serif;
+  font-weight:bold;
+  padding-left: 90px;
+  margin: left 10px;
+}
+
+p.ppp {
+  padding-left: 94px;
+  height: 45px;
+  width: 500px;
+}
+.button {
+  position: absolute;
+  background-color: #c7705a;
+  height: 50px;
+  right: 0%;
+  width: 170px;
+}
+
+
+footer {
+  margin-top: 50px;
+}
+
+.footerimg{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 650px ;
+  padding-left: 650px;
+  vertical-align: middle ;
+}
+.footerParagraph {
+  color: gray;
+  font-family: 'Crimson Text', serif;
+  font-size: 13px;
+  margin: auto;
+  margin-bottom: 4%;
+  width: 80%;
+  text-align: center;
+  line-height: 2;
+ 
+}
