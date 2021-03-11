@@ -7,14 +7,113 @@ body {
         float: right;
       }
 
-      #printer-image{
-        display: inline-block; 
-        float: right;
+    
+      
+
+      header{
+        height: 85px;
+      }
+
+      #logo{
+        float: left;
+        height: 3.5em;
+      }
+
+      #head p {
+       float: left;
+      }
+
+      #Delicious{
+        font-family: 'Yellowtail', cursive;
+        font-size: 3vw;
+        font-weight: 600;
+      }
+
+      #best{
+        color: rgb(175, 172, 172);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: xx-small;
+    letter-spacing: .2em;
+    margin-left: 5px;
+      }
+
+      #rss{
+        margin-left: 10px;
+      }
+
+      #line{
+        background-image: linear-gradient(45deg, #ffffff 28.57%, #e0e0e0 28.57%, #e0e0e0 50%, #ffffff 50%, #ffffff 78.57%, #e0e0e0 78.57%, #e0e0e0 100%);
+  background-size: 9.90px 9.90px;
+  height: 10px;
+      }
+
+      #chocolate{
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: -2px;
+    margin-top: 50px;
+    font-size: 3.5vw;
+    font-weight: 700;
+      }
+
+      #post{
+        color: rgb(173, 173, 173);
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: .1em;
+    margin-top: 5px;
+    font-size: small ;
       }
 
 
+      #printer-image{
+        display: inline; 
+        float: right;
+        
+      }
+
+      #print{
+        float: right;
+        color: rgb(173, 173, 173);
+        font-size: small;
+        
+      }
 
       #choco{
-      margin: opx ;
-     float: center;
+        width: 100%;
+        margin-top: 30px ;
+      }
+
+
+      .text{
+        color: gray;
+    font-family: 'Crimson Text', serif;
+    font-size: large;
+    line-height: 2vw;
+    margin-top: 2vw;
+    margin-left: 5px;
+    text-indent: 3%;
+      }
+
+      input[type=checkbox]:checked + label {
+        text-decoration: line-through;
+      }
+
+      #list{
+        margin-top: 20px;
+        width: 100%;
+
+      }
+
+      #form-list{
+        color: gray;
+        display: inherit;
+        font-family: patrick hand, cursive;
+        line-height: 50px; 
+        margin-left: 7%;
+        width: 100%;
+        background-color: url("/img/list-bg.png");
+      }
+
+      #col1{
+        float: right;
+        width: 40%;
       }
