@@ -1,3 +1,20 @@
 body {
     background-color: white;
  }
+
+    nav {
+        display:inline-block;
+        float: right;
+      }
+
+      #printer-image{
+        display: inline-block; 
+        float: right;
+      }
+
+
+
+      #choco{
+      margin: opx ;
+     float: center;
+      }
