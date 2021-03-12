@@ -68,6 +68,7 @@ height: 10px;
       display: inline; 
       float: right;
       
+
     }
 
     #print{
@@ -77,10 +78,45 @@ height: 10px;
       
     }
 
+      #line1{
+        width: 48%;
+        float: left;
+        position: relative;
+        bottom:-10px;
+      }
+
+      #line2{
+        width: 48%;
+        position: relative;
+        bottom: -17px;
+      }
+
+      #copy{
+        margin-top: 5%;
+      }
+
+      .footerP{
+        text-align: center;
+        color: gray;
+      }
+
+      footer{
+        margin-top: 10%;
+      }
+       
+    
+      #col1,#form-list{
+     background-image: url("/img/list-bg.png");
+     }
+     
+ 
+
+
     #choco{
       width: 100%;
       margin-top: 30px ;
     }
+
 
 
     .text{
