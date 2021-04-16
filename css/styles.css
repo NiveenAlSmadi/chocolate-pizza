@@ -232,12 +232,9 @@ p.ppp {
   right: 0%;
   width: 170px;
 }
-
-
 footer {
   margin-top: 50px;
 }
-
 .footerimg{
   display: inline;
   margin-left: auto;
@@ -255,5 +252,4 @@ footer {
   width: 80%;
   text-align: center;
   line-height: 2;
- 
 }
